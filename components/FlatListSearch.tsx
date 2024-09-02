@@ -105,7 +105,7 @@ const FlatListSearch = () => {
   const handleEndReached = useCallback(() => {
     if (!loadingMore) {
       setLoadingMore(true);
-      // Simulate fetching more data (this could be an actual API call)
+      // Simulating fetching more data
       setTimeout(() => {
         setLoadingMore(false);
       }, 1500);
